@@ -1,0 +1,3 @@
+rootProject.name='SpringBackSample'
+include ':app'
+include ':springback'

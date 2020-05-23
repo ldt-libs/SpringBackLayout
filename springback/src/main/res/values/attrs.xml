@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpringBackLayout">
+        <attr name="scrollableChildView" format="reference"/>
+        <attr name="scrollOrientation" format="integer">
+            <flag name="angle" value="4" />
+            <flag name="horizontal" value="1" />
+            <flag name="vertical" value="2" />
+        </attr>
+        <attr name="scrollableView" format="reference"/>
+        <attr name="springBackMode" format="integer">
+            <flag name="bottom" value="2" />
+            <flag name="top" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

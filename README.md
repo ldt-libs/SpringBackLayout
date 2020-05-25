@@ -1,7 +1,7 @@
 # Spring Back Layout
 **A wrapper ViewGroup that provides an iOS Look-And-Feel Overscroll Effect**
 ### Note
-This ViewGroup is from the decompiled MIUI Setting App
+This ViewGroup is from the decompiled source code of MIUI Setting App
 
 ### Screen shot
 

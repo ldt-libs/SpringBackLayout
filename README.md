@@ -16,7 +16,19 @@ src="https://user-images.githubusercontent.com/33343210/82741450-1ca06280-9d7c-1
 </br>
 
 ### Adding to project
+
+Add it in your root build.gradle
+```groovy
+allprojects {
+  repositories {
+    //... ommitted for brevity
+    maven { url 'https://jitpack.io' }
+  }
+}
 ```
+
+Add the dependency in your build.gradle.
+```gtoovy
 implementation 'com.github.ldt-libs:SpringBackLayout:1.0'
 ```
 

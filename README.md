@@ -28,14 +28,15 @@ allprojects {
 ```
 
 Add the dependency in your build.gradle.
-```gtoovy
-implementation 'com.github.ldt-libs:SpringBackLayout:1.0'
+
+```groovy
+  implementation 'com.github.ldt-libs:SpringBackLayout:1.0'
 ```
 
 ### Usage
 Wrap any scrollable view in the SpringBackLayout, like RecyclerView, ListView or NestedScrollView.
 
-```
+```xml
 <com.ldt.springback.view.SpringBackLayout
     android:id="@+id/root"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -45,9 +46,11 @@ Wrap any scrollable view in the SpringBackLayout, like RecyclerView, ListView or
     android:layout_height="match_parent"
     app:scrollOrientation="vertical"
     tools:context=".MainActivity">
+  
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+  
 </com.ldt.springback.view.SpringBackLayout>
 ```
